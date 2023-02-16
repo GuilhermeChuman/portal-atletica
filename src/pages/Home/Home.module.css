@@ -1,0 +1,69 @@
+.BodyHome {
+    min-height: 200px;
+}
+
+/*----------------------------------------------------------------------*/
+
+.Content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.FirstStep{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FirstStep Button{
+    margin: 10px;
+}
+
+.Loading{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.SearchItem{
+    width: 200px;
+    margin: 25px;
+    cursor: pointer;
+    transition: transform 100ms ease-in-out;
+}
+
+.SearchItem:hover{
+    /* border: solid; */
+    /* border-color: aqua; */
+    transform: scale(1.2);
+    transition: transform 100ms ease-in-out;
+}
+
+.SearchItem .TitleItem{
+    height: 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.SearchItem img{
+    width: 150px;
+    max-height: 200px;
+}
+
+.TextField{
+    width: 40%;
+}
+
+.Home{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: auto;
+}
+
+.Buttons{
+    height: 10%;
+}

@@ -1,0 +1,16 @@
+.header {
+    width: 100%;
+    background-color: #e98426;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.title{
+    height: 100%;
+}
+
+.font{
+    margin: 0px;
+}

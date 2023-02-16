@@ -1,0 +1,102 @@
+.BodySession {
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* width */
+.BodySession::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+.BodySession::-webkit-scrollbar-track {
+    background: #f1f1f100; 
+    border-radius: 10px;
+}
+
+/* Track */
+.BodySession::-webkit-scrollbar-track:hover {
+    border-radius: 10px;
+}
+
+/* Handle */
+.BodySession::-webkit-scrollbar-thumb {
+    background: #a7a6a6; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.BodySession::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    animation: fadeIn 2s ease-in-out;
+}
+
+/*----------------------------------------------------------------------*/
+
+.Content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.FirstStep{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FirstStep Button{
+    margin: 10px;
+}
+
+.Loading{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.SearchItem{
+    width: 200px;
+    margin: 25px;
+    cursor: pointer;
+    transition: transform 100ms ease-in-out;
+}
+
+.SearchItem:hover{
+    /* border: solid; */
+    /* border-color: aqua; */
+    transform: scale(1.2);
+    transition: transform 100ms ease-in-out;
+}
+
+.SearchItem .TitleItem{
+    height: 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.SearchItem img{
+    width: 150px;
+    max-height: 200px;
+}
+
+.TextField{
+    width: 40%;
+}
+
+.Home{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: auto;
+}
+
+.Buttons{
+    height: 10%;
+}
